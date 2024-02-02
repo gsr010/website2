@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(imag/20.png);
+    background-size: 200px;
+    background-repeat: repeat;
+}
+
+.continer .gilary {
+    text-align: center;
+    margin: 20px;
+}
+
+.continer .gilary .img img {
+    width: 300px;
+    filter: grayscale(100%);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+
+}
+.continer .gilary .img img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+
+}
+
+
